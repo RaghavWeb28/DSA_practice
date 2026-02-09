@@ -18,7 +18,6 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
     int n = merged.size();
 
-        
     if (n % 2 == 1)
         return merged[n / 2];
     else
